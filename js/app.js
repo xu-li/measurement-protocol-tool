@@ -104,7 +104,7 @@
                 }
             });
 
-            _gaq.push(['_trackEvent', 'Default', 'Send']);
+            ga && ga('send', 'event', 'Default', 'Send');
         });
     };
 
